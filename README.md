@@ -10,3 +10,5 @@ flask run
 needs SqlAlchemy
 
 PostgreSQL Database runs on Cloud Platform ElephantSQL. Can be configured for other cloud providers or dedicated PostgreSQL server.
+
+The front-end is currently hooked up with a test json file so that you can see the AngularJS front end without having to boot up flask.
