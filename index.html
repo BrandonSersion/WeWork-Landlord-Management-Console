@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="weWork">
+
+<head>
+  <meta charset="UTF-8">
+  <title>We Work Tenant Management Console</title>
+  <meta name="description" content="DESCRIPTION">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+
+  <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+</head>
+
+<body ng-controller="WeWorkCtrl">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./index.html">We Work Tenant Management Console</a>
+      </div>
+      <!--
+      <ul class="nav navbar-nav">
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Plans</a></li>
+        <li><a href="#">Mission</a></li>
+        <li><a href="#">Enterprise</a></li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="tel:1-877-959-6894">1-877-959-6894</a></li>
+        <li><button class="btn btn-default" type="button">Login</button></li>
+       -->
+    </div>
+  </nav>
+  <h1>Welcome to WeWork</h1>
+  <h2>Below is the up to date occupancy of our Navy Yard location at 80 M Street SE</h2>
+  <br>
+  <div class="container">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Room Number</th>
+          <th>Floor</th>
+          <th>Square Footage</th>
+          <th>Occupant</th>
+          <th>Rent</th>
+          <th>Date Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="room in rooms">
+          <td>{{room.roomId}}</td>
+          <td>{{room.floor}}</td>
+          <td>{{room.squareFootage}}</td>
+          <td>{{room.occupant}}</td>
+          <td>{{room.rent | currency}}</td>
+          <td>{{room.leaseEndDate}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
