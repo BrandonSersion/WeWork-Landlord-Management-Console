@@ -1,14 +1,35 @@
-# WeWork
-needs Flask
-run Flask through command line 
+# WeWork Management Console Prototype
+
+## Dependencies
+<ul>
+    <li>Flask</li>
+    <li>SqlAlchemy</li>
+    <li>Jupyter Notebook</li>
+    <li>ElephantSQL</li>
+</ul>
+
+## CDN Links
+<ul>
+    <li>Bootstrap 3</li>
+    <li>AngularJS</li>
+    <li>jQuery</li>
+</ul>
+
+## How to set up the flask server
 pip install Flask
 set FLASK_APP=rooms.py 
 flask run
+
+You should see the following message:
  * Serving Flask app "rooms"
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
-needs SqlAlchemy
+## ElephantSQL
+<p>
+Database configured to run off the Cloud Platform ElephantSQL. You can reconfigure SqlAlchemy to point to a different cloud platform or a dedicated PostgreSQL server if you want. 
+</p>
 
-PostgreSQL Database runs on Cloud Platform ElephantSQL. Can be configured for other cloud providers or dedicated PostgreSQL server.
-
-The front-end is currently hooked up with a test json file so that you can see the AngularJS front end without having to boot up flask.
+## Note
+<p>
+The front-end is currently hooked up with a test json file. You don't have to boot up flask to see this prototype in action.
+</p>
