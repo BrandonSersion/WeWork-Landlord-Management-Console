@@ -23,15 +23,10 @@
 </ul>
 
 You should see the following message:
-
 > Serving Flask app "rooms". Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
 ## ElephantSQL
-<p>
-Database configured to run off the Cloud Platform ElephantSQL. You can reconfigure SqlAlchemy to point to a different cloud platform or a dedicated PostgreSQL server if you want. 
-</p>
+<p>Database configured to run off the Cloud Platform ElephantSQL. You can reconfigure SqlAlchemy to point to a different cloud platform or a dedicated PostgreSQL server if you want.</p>
 
 ## Note
-<p>
-The front-end is currently hooked up with a test json file. You don't have to boot up flask to see this prototype in action.
-</p>
+<p>The front-end is currently hooked up with a test json file. You don't have to boot up Flask to see this prototype in action.</p>
