@@ -24,7 +24,7 @@
 
 You should see the following message:
 
-Serving Flask app "rooms". Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+> Serving Flask app "rooms". Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
 ## ElephantSQL
 <p>
