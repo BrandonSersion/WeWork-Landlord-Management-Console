@@ -16,13 +16,15 @@
 </ul>
 
 ## How to set up the flask server
-pip install Flask
-set FLASK_APP=rooms.py 
-flask run
+<ul>
+    <li>pip install Flask</li>
+    <li>set FLASK_APP=rooms.py </li>
+    <li>flask run</li>
+</ul>
 
 You should see the following message:
- * Serving Flask app "rooms"
- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+Serving Flask app "rooms". Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
 ## ElephantSQL
 <p>
