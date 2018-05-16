@@ -1,9 +1,8 @@
-body {
-  width: 75%;
-  margin: auto;
-  text-align: center;
+th,td{
+text-align:center;
 }
 
-th{
-text-align:center;
+ul{
+  padding-right:20px;
+  float:right;
 }
